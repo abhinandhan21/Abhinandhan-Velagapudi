@@ -20,13 +20,13 @@
     }
     main {
       padding: 2rem;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
-    h1, h2 {
+    h1, h2, h3 {
       color: #003366;
     }
-    .project {
+    .project, .certificate, .publication {
       margin-bottom: 2rem;
       background: white;
       padding: 1rem;
@@ -55,6 +55,12 @@
       margin: 1rem auto;
       display: block;
     }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -66,57 +72,75 @@
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>I’m a recent graduate in Applied Data Science with hands-on experience in data engineering, analytics, and visualization. I enjoy building scalable data solutions and transforming complex datasets into actionable insights.</p>
+      <p>I’m Abhinandhan Velagapudi, a recent graduate with a Master’s in Applied Data Science from Indiana University. I specialize in data engineering, analytics, and visualization, and I’m passionate about transforming raw data into meaningful insights and solutions. My interests span across big data, predictive modeling, web development, and scalable data pipelines.</p>
       <a href="Abhinandhan_Velagapudi_ADS_May15.pdf" class="button">Download Resume</a>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>Indiana University – Luddy School of Informatics, Indianapolis, IN</strong><br>MS in Applied Data Science – May 2025<br>Specializations: Data Analytics, Data Engineering, Deep Learning, Cloud Computing, Data Visualization, Web Database Development</p>
+      <p><strong>Vel Tech University, Chennai, India</strong><br>B.Tech in Computer Science (Data Analytics) – June 2023</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-
       <div class="project">
         <h3>BrewShop: Online Coffee Marketplace</h3>
-        <p>Developed a 3-tier web application using PHP, MySQL, HTML/CSS, and JavaScript. Built product management, order tracking, and admin functionalities for a smooth online shopping experience.</p>
+        <p>Developed a 3-tier full-stack web application using PHP, MySQL, HTML/CSS, and JavaScript. Features include product browsing, ordering, admin controls, and order management. Focused on building relational schema, session management, and clean UI design.</p>
       </div>
-
       <div class="project">
         <h3>Instacart Market Basket Analysis</h3>
-        <p>Processed over 3 million orders using PySpark and SparkSQL. Built product recommendation systems and demand forecasting models with >85% accuracy using Spark MLlib.</p>
+        <p>Processed over 3M transactions using PySpark and SparkSQL. Performed customer segmentation, demand forecasting, and market basket analysis with rules using lift > 1.5 and confidence > 0.2. Visualized findings and deployed models via Databricks.</p>
       </div>
-
       <div class="project">
         <h3>New York Airbnb Data Visualization Dashboard</h3>
-        <p>Designed an interactive dashboard with Plotly and Dash to analyze Airbnb pricing, availability, and neighborhood trends using real-time data.</p>
+        <p>Built an interactive dashboard using Plotly and Dash to explore pricing dynamics, seasonal trends, and neighborhood-based demand patterns in NYC Airbnb listings.</p>
       </div>
-
       <div class="project">
         <h3>Building Footprint Extraction Using Deep Learning</h3>
-        <p>Applied ResNet and SkyNet models for semantic segmentation of satellite images. Achieved >80% IoU accuracy in extracting building outlines for urban mapping.</p>
+        <p>Used ResNet and SkyNet models on satellite imagery to segment buildings for urban planning. Achieved IoU > 80% and processed test data for over 500 locations.</p>
       </div>
-
       <div class="project">
         <h3>Academic Research Repository</h3>
-        <p>Designed a 20-table relational database in 3NF using MySQL. Built an ER diagram and backend system to manage student and faculty research submissions efficiently.</p>
+        <p>Designed a normalized 20-table MySQL database with a complete ERD to manage student, author, and publication information. Supported search, login, and submission workflows for a research access platform.</p>
       </div>
-
       <div class="project">
         <h3>Multi-Disease Prediction Using Machine Learning</h3>
-        <p>Led a healthcare analytics project using Random Forest, Naïve Bayes, and Decision Trees. Achieved 91.87% accuracy in disease classification based on medical datasets.</p>
+        <p>Led the development of a classification system for diagnosing diseases using Random Forest and Naïve Bayes. Achieved over 91.87% prediction accuracy and tested on real-world medical datasets.</p>
       </div>
-
       <div class="project">
         <h3>Smart Vehicle System Using Machine Learning</h3>
-        <p>Developed a driver-assist system to detect road hazards using sensor data and trained machine learning models. Improved detection and real-time decision-making.</p>
+        <p>Built a sensor-driven assistive system for hazardous road conditions. Developed preprocessing pipeline and ML training flow to enhance driver support under low-visibility conditions.</p>
       </div>
     </section>
 
     <section id="certifications">
       <h2>Certifications</h2>
-      <ul>
-        <li>KPMG Data Analytics Consulting Virtual Internship – Forage</li>
-        <li>Accenture Project Management Virtual Experience – Forage</li>
-        <li>Cognizant Artificial Intelligence Virtual Experience – Forage</li>
-        <li>Cognizant Agile Virtual Experience – Forage</li>
-      </ul>
+      <div class="certificate">
+        <h3>Accenture Project Management Virtual Experience</h3>
+        <iframe src="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/tHFz7Bfjmh35DXQv6_Accenture%20North%20America_A4ZSscKEMHkXGpgpN_1701754064480_completion_certificate.pdf"></iframe>
+      </div>
+      <div class="certificate">
+        <h3>Cognizant AI Virtual Experience</h3>
+        <iframe src="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/ZZswQd6xGydd758vz_Cognizant_A4ZSscKEMHkXGpgpN_1702784916417_completion_certificate.pdf"></iframe>
+      </div>
+      <div class="certificate">
+        <h3>Cognizant Agile Virtual Experience</h3>
+        <iframe src="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/5N2ygyhzMWjKQmgCK_Cognizant_A4ZSscKEMHkXGpgpN_1699902381930_completion_certificate.pdf"></iframe>
+      </div>
+      <div class="certificate">
+        <h3>KPMG Data Analytics Virtual Internship</h3>
+        <iframe src="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/KPMG%20AU/m7W4GMqeT3bh9Nb2c_KPMG%20AU_A4ZSscKEMHkXGpgpN_1698607835300_completion_certificate.pdf"></iframe>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="publication">
+        <h3>Multi-Disease Prediction Using Machine Learning Algorithm</h3>
+        <p>Published in IJRASSET. This research focuses on using machine learning algorithms for accurate prediction of multiple diseases based on healthcare data.</p>
+        <a href="https://www.ijraset.com/best-journal/multi-disease-prediction-using-machine-learning-algorithm" target="_blank">View Publication</a>
+      </div>
     </section>
 
     <section id="contact">
